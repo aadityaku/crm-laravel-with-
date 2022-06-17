@@ -9,8 +9,8 @@
                     <div class="col-lg-4 mt-3">
                         <div class="card bg-danger py-4 px-2">
                             {{-- <div class="card-body"> --}}
-                                <h4 class="text-truncate text-white">Companie name:{{$item->name}}</h4>
-                                <h4 class="text-white">Total Employes:{{$item->employee_count}}</h4>
+                                <h4 class="text-truncate text-dark">Companie name:<span class="text-white"> {{$item->name}}</span></h4>
+                                <h4 class="text-dark">Total Employes:<span class="text-white"> {{$item->employee_count}}</span></h4>
                             </div>
                         </div>
                     {{-- </div> --}}

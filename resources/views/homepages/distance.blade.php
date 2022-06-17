@@ -1,10 +1,11 @@
      {{-- check this api for token --}}
+     
     {{-- https://outpost.mapmyindia.com/api/security/v2.3.0/oauth/token?grant_type=client_credentials&client_id=33OkryzDZsKW6BuqN16P5baNNzcG3dh1HAEALNcBgm9Wwg8tCX0BszR_w1FXcATvpAc0Q4bcVmw2D9bpmZQj4w==&client_secret=lrFxI-iSEg9IVs1MCe5aFD9CySi3l00CxQdsbmP9kP5lULcVjsouqhVpPI_pI1DkeSYfdDNoNueohXjjXmSG4CH0Z02mAlcL --}}
   @extends('homepages/base')
   @section('map')
   <meta name="desciption" content="Mapmyindia Direction Plugin">
-      <script src="https://apis.mapmyindia.com/advancedmaps/v1/62715c90-96f4-4954-9870-ae119bfe5dc0/map_load?v=1.5"></script>
-      <script src="https://apis.mapmyindia.com/advancedmaps/api/62715c90-96f4-4954-9870-ae119bfe5dc0/map_sdk_plugins"></script>
+      <script src="https://apis.mapmyindia.com/advancedmaps/v1/a4eb64a9-f527-4be1-b3cc-0c289c611a1e/map_load?v=1.5"></script>
+      <script src="https://apis.mapmyindia.com/advancedmaps/api/a4eb64a9-f527-4be1-b3cc-0c289c611a1e/map_sdk_plugins"></script>
       <style>
         body{margin: 0}
         #map{
